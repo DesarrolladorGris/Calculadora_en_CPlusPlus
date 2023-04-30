@@ -2,37 +2,17 @@
 using namespace std;
 
 int main() {
-    double num1, num2, resultado;
-    char operacion;
+    int num1 = 10;
+    float num2 = 3.14;
+    double num3 = 2.71828;
+    char letra = 'A';
+    bool es_verdad = true;
 
-    cout << "Ingrese el primer numero: ";
-    cin >> num1;
-    cout << "Ingrese el segundo numero: ";
-    cin >> num2;
-
-    cout << "Ingrese la operacion a realizar (+, -, *, /): ";
-    cin >> operacion;
-
-    switch (operacion) {
-        case '+':
-            resultado = num1 + num2;
-            break;
-        case '-':
-            resultado = num1 - num2;
-            break;
-        case '*':
-            resultado = num1 * num2;
-            break;
-        case '/':
-            resultado = num1 / num2;
-            break;
-        default:
-            cout << "Operacion no valida";
-            return 0;
-    }
-
-    cout << "El resultado de la operacion es: " << resultado;
+    cout << "Un entero: " << num1 << endl;
+    cout << "Un flotante: " << num2 << endl;
+    cout << "Un double: " << num3 << endl;
+    cout << "Una letra: " << letra << endl;
+    cout << "Un booleano: " << es_verdad << endl;
 
     return 0;
 }
-
