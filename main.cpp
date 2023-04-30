@@ -1,10 +1,12 @@
 #include <iostream>
 
 
-//directiva de preprocesador que se utiliza para incluir la biblioteca de cadenas de caracteres de C++
+//directiva de preprocesador que se utiliza para incluir
+//la biblioteca de cadenas de caracteres de C++. String es una biblioteca estandar de c++
 #include <string>
 
-//declaración de espacio de nombres que indica que el programa utilizará los nombres definidos en el espacio de nombres "std"
+//declaración de espacio de nombres que indica que el programa utilizará
+//los nombres definidos en el espacio de nombres "std"
 using namespace std;
 
 int main() {
