@@ -1,18 +1,36 @@
 #include <iostream>
+
+
+//directiva de preprocesador que se utiliza para incluir la biblioteca de cadenas de caracteres de C++
+#include <string>
+
+//declaración de espacio de nombres que indica que el programa utilizará los nombres definidos en el espacio de nombres "std"
 using namespace std;
 
 int main() {
-    int num1 = 10;
-    float num2 = 3.14;
-    double num3 = 2.71828;
-    char letra = 'A';
-    bool es_verdad = true;
+    // Ejemplo de tipos de datos en C++
 
-    cout << "Un entero: " << num1 << endl;
-    cout << "Un flotante: " << num2 << endl;
-    cout << "Un double: " << num3 << endl;
-    cout << "Una letra: " << letra << endl;
-    cout << "Un booleano: " << es_verdad << endl;
+    // Tipos numéricos
+    int entero = 10;
+    float flotante = 3.14;
+    double doble = 2.71828;
+
+    // Tipo booleano
+    bool booleano = true;
+
+    // Tipo caracter
+    char caracter = 'a';
+
+    // Tipo cadena de caracteres
+    string cadena = "Hola mundo!";
+
+    // Mostramos los valores en consola
+    cout << "Valor entero: " << entero << endl;
+    cout << "Valor flotante: " << flotante << endl;
+    cout << "Valor doble: " << doble << endl;
+    cout << "Valor booleano: " << booleano << endl;
+    cout << "Valor caracter: " << caracter << endl;
+    cout << "Valor cadena: " << cadena << endl;
 
     return 0;
 }
